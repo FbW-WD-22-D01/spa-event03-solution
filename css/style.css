@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+img {
+  width: 50vw;
+  height: auto;
+}
+
+section {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+section div {
+  width: 50%;
+  height: 25vw;
+  background: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+section div input {
+  font-size: 30px;
+  padding: 18px;
+  width: 80%;
+}
+
+label {
+  font-size: 20px;
+  font-family: tahoma;
+  color: black;
+  padding: 60px 0 0 0;
+}
+
+section div button {
+  font-size: 30px;
+  padding: 10px;
+  background: red;
+  color: white;
+  border-radius: 0.5vw;
+  border: none;
+}
+
+.showOff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
